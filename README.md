@@ -27,20 +27,15 @@ git clone https://github.com/PallonCX/ph-mock-website-demo.git
 cd ph-mock-website-demo
 ```
 
-3. Add the original repository as a remote to keep your local copy updated:
-
-```bash
-git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
-```
-
 ## Making Changes
 
 ### Before making change
 
-1. Pull changes from the upstream repository and automatically merge them into your local branch.
+1. Pull changes from the main repository and automatically merge them into your local branch.
 
 ```bash
-git pull upstream main
+git checkout main
+git pull 
 ```
 
 2. Create a new branch for your changes (modify the branch name to something suit your case, e.g. "navigation-bar-branch"):
