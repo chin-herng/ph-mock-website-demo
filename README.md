@@ -19,8 +19,11 @@ Open your IDE's terminal and navigate to a suitable folder. Then, run the follow
 
 ```bash
 git clone https://github.com/PallonCX/PHMockWebsiteDemo.git
+```
 
 After cloning, navigate into the project directory using the following commands:
 
 ```bash
 cd PHMockWebsiteDemo
+```
+
