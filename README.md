@@ -58,30 +58,44 @@ npm install react-scripts --save
 
 ### After making change
 
-1. Build the website.
+1. Pull changes from the main repository and automatically merge them into your local branch.
+
+```bash
+git checkout main
+git pull 
+```
+
+2. Merge your changes to the lastest main branch:
+
+```bash
+git checkout my-feature-branch
+git rebase main
+```
+
+3. Build the website.
 
 ```bash
 npm run build
 ```
   
-2. Make your changes, stage them, and commit.
+4. Stage your changes, and commit.
 
 ```bash
 git add .
 git commit -m "Description of changes"
 ```
 
-3. Push your changes to GitHub.
+5. Push your changes to GitHub.
 
 ```bash
-git push origin my-feature-branch
+git push --set-upstream origin my-feature-branch
 ```
 
-4. Go to the repository on GitHub and click "Pull requests" at navigation bar.
+6. Go to the repository on GitHub and click "Pull requests" at navigation bar.
 
-5. Click the "New Pull Request" button.
+7. Click the "New Pull Request" button.
 
-6. Choose the your branch name and click "Create Pull Request." 
+8. Choose the your branch name and click "Create Pull Request." 
 
 ## Folders / Files Explanation
 
