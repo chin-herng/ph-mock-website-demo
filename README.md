@@ -78,3 +78,10 @@ git push origin my-feature-branch
 
 5. Choose the your branch name and click "Create Pull Request." 
 
+## Folders / Files Explanation
+
+1. src (folder)
+   - Codes for the website.
+
+2. index.html (file)
+   - Must be placed at root in order for github to detect and render the website.
