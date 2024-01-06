@@ -59,24 +59,30 @@ npm start
 
 ### After making change
 
-1. Make your changes, stage them, and commit.
+1. Build the website.
+
+```bash
+npm run build
+```
+  
+2. Make your changes, stage them, and commit.
 
 ```bash
 git add .
 git commit -m "Description of changes"
 ```
 
-2. Push your changes to GitHub.
+3. Push your changes to GitHub.
 
 ```bash
 git push origin my-feature-branch
 ```
 
-3. Go to the repository on GitHub and click "Pull requests" at navigation bar.
+4. Go to the repository on GitHub and click "Pull requests" at navigation bar.
 
-4. Click the "New Pull Request" button.
+5. Click the "New Pull Request" button.
 
-5. Choose the your branch name and click "Create Pull Request." 
+6. Choose the your branch name and click "Create Pull Request." 
 
 ## Folders / Files Explanation
 
