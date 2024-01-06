@@ -35,6 +35,12 @@ git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
 
 ## Making Changes
 
+Pull changes from the upstream repository and automatically merge them into your local branch.
+
+```bash
+git pull upstream main
+```
+
 Create a new branch for your changes:
 
 ```bash
