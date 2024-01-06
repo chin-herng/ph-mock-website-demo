@@ -33,7 +33,7 @@ Add the original repository as a remote to keep your local copy updated:
 git remote add upstream https://github.com/original-username/repository.git
 ```
 
-### Making Changes
+## Making Changes
 
 Create a new branch for your changes:
 
