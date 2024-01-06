@@ -49,6 +49,14 @@ git pull upstream main
 git checkout -b my-feature-branch
 ```
 
+### While making change
+
+Run the following command to start the development server. This will launch your React application, and you can view it in your web browser at http://localhost:3000.
+
+```bash
+npm start
+```
+
 ### After making change
 
 1. Make your changes, stage them, and commit.
