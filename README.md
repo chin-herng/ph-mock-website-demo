@@ -43,7 +43,7 @@ git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
 git pull upstream main
 ```
 
-2. Create a new branch for your changes:
+2. Create a new branch for your changes (modify the branch name to something suit your case, e.g. "navigation-bar-branch"):
 
 ```bash
 git checkout -b my-feature-branch
