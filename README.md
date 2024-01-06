@@ -1,6 +1,6 @@
 # PHMockWebsiteDemo
 
-Welcome to PHMockWebsiteDemo! This repository contains a mock website demonstration for [provide a brief description of the project].
+Welcome to PHMockWebsiteDemo! This repository contains a mock website demonstration.
 
 ## Getting Started
 
@@ -19,3 +19,8 @@ Open your IDE's terminal and navigate to a suitable folder. Then, run the follow
 
 ```bash
 git clone https://github.com/PallonCX/PHMockWebsiteDemo.git
+
+After cloning, navigate into the project directory using the following commands:
+
+```bash
+cd PHMockWebsiteDemo
