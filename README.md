@@ -15,19 +15,19 @@ Make sure you have the following installed:
 
 ### Installation
 
-Open your IDE's terminal and navigate to a suitable folder. Then, run the following command to clone the repository:
+1. Open your IDE's terminal and navigate to a suitable folder. Then, run the following command to clone the repository:
 
 ```bash
 git clone https://github.com/PallonCX/ph-mock-website-demo.git
 ```
 
-After cloning, navigate into the project directory using the following commands:
+2. After cloning, navigate into the project directory using the following commands:
 
 ```bash
 cd ph-mock-website-demo
 ```
 
-Add the original repository as a remote to keep your local copy updated:
+3. Add the original repository as a remote to keep your local copy updated:
 
 ```bash
 git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
@@ -35,29 +35,34 @@ git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
 
 ## Making Changes
 
-Pull changes from the upstream repository and automatically merge them into your local branch.
+1. Pull changes from the upstream repository and automatically merge them into your local branch.
 
 ```bash
 git pull upstream main
 ```
 
-Create a new branch for your changes:
+2. Create a new branch for your changes:
 
 ```bash
 git checkout -b my-feature-branch
 ```
 
-Make your changes, stage them, and commit.
+3. Make your changes, stage them, and commit.
 
 ```bash
 git add .
 git commit -m "Description of changes"
 ```
 
-Push your changes to GitHub.
+4. Push your changes to GitHub.
 
 ```bash
 git push origin my-feature-branch
 ```
 
+5. Go to the repository on GitHub and click "Pull requests" at navigation bar.
+
+6. Click the "New Pull Request" button.
+
+7. Choose the your branch name and click "Create Pull Request." 
 
