@@ -30,7 +30,7 @@ cd ph-mock-website-demo
 Add the original repository as a remote to keep your local copy updated:
 
 ```bash
-git remote add upstream https://github.com/original-username/repository.git
+git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
 ```
 
 ## Making Changes
