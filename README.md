@@ -27,3 +27,31 @@ After cloning, navigate into the project directory using the following commands:
 cd ph-mock-website-demo
 ```
 
+Add the original repository as a remote to keep your local copy updated:
+
+```bash
+git remote add upstream https://github.com/original-username/repository.git
+```
+
+### Making Changes
+
+Create a new branch for your changes:
+
+```bash
+git checkout -b my-feature-branch
+```
+
+Make your changes, stage them, and commit.
+
+```bash
+git add .
+git commit -m "Description of changes"
+```
+
+Push your changes to GitHub.
+
+```bash
+git push origin my-feature-branch
+```
+
+
