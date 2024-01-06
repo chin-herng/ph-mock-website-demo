@@ -65,7 +65,7 @@ git checkout main
 git pull 
 ```
 
-2. Merge your changes to the lastest main branch:
+2. Merge your changes to the latest main branch:
 
 ```bash
 git checkout my-feature-branch
@@ -95,7 +95,7 @@ git push --set-upstream origin my-feature-branch
 
 7. Click the "New Pull Request" button.
 
-8. Choose the your branch name and click "Create Pull Request." 
+8. Choose your branch name and click "Create Pull Request." 
 
 ## Folders / Files Explanation
 
