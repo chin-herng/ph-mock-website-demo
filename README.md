@@ -35,6 +35,8 @@ git remote add upstream https://github.com/PallonCX/ph-mock-website-demo.git
 
 ## Making Changes
 
+### Before making change
+
 1. Pull changes from the upstream repository and automatically merge them into your local branch.
 
 ```bash
@@ -47,22 +49,24 @@ git pull upstream main
 git checkout -b my-feature-branch
 ```
 
-3. Make your changes, stage them, and commit.
+### After making change
+
+1. Make your changes, stage them, and commit.
 
 ```bash
 git add .
 git commit -m "Description of changes"
 ```
 
-4. Push your changes to GitHub.
+2. Push your changes to GitHub.
 
 ```bash
 git push origin my-feature-branch
 ```
 
-5. Go to the repository on GitHub and click "Pull requests" at navigation bar.
+3. Go to the repository on GitHub and click "Pull requests" at navigation bar.
 
-6. Click the "New Pull Request" button.
+4. Click the "New Pull Request" button.
 
-7. Choose the your branch name and click "Create Pull Request." 
+5. Choose the your branch name and click "Create Pull Request." 
 
