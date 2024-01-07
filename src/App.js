@@ -15,9 +15,9 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/facilities" element={<Facilities />} />
-            <Route path="/events" element={<Events />} />
+            <Route path="/ph-mock-website-demo/" element={<Home />} />
+            <Route path="/ph-mock-website-demo/facilities" element={<Facilities />} />
+            <Route path="/ph-mock-website-demo/events" element={<Events />} />
           </Routes>
         </main>
       </div>

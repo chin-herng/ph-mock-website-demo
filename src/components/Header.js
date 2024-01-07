@@ -9,12 +9,12 @@ function Header() {
       <div className="logo">Your Logo</div>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/accommodation">Accommodation</Link></li>
-          <li><Link to="/facilities">Facilities</Link></li>
-          <li><Link to="/life">Life at Pioneer House</Link></li>
-          <li><Link to="/events">Events</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/ph-mock-website-demo">Home</Link></li>
+          <li><Link to="/ph-mock-website-demo/accommodation">Accommodation</Link></li>
+          <li><Link to="/ph-mock-website-demo/facilities">Facilities</Link></li>
+          <li><Link to="/ph-mock-website-demo/life">Life at Pioneer House</Link></li>
+          <li><Link to="/ph-mock-website-demo/events">Events</Link></li>
+          <li><Link to="/ph-mock-website-demo/contact">Contact</Link></li>
         </ul>
       </nav>
       <div className="search-bar">
