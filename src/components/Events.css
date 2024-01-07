@@ -1,0 +1,39 @@
+/* Events.css */
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .event-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .event-card h3 {
+    margin-top: 10px;
+  }
+  
+  /* Add more styles as needed */
+  .event-card button.register-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .event-card button.register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  

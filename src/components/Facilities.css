@@ -1,0 +1,37 @@
+/* Facilities.css */
+.facilities-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .facility-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .facility-card {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .facility-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .facility-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .facility-card p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

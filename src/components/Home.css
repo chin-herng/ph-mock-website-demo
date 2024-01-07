@@ -1,0 +1,38 @@
+/* Home.css */
+.Home {
+    text-align: center;
+  }
+  
+  /* Header styling - customize as needed */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  /* Hero section styling */
+  .hero-section {
+    background-color: #f5f5f5;
+    padding: 2rem;
+  }
+  
+  /* Featured section styling */
+  .featured-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .accommodation-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 300px;
+  }
+  
+  /* Explore section styling */
+  .explore-section {
+    padding: 2rem;
+  }
+  

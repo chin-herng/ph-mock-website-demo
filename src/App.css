@@ -1,37 +1,15 @@
 /* App.css */
+
+/* Add global styles or resets if needed */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Define styles for your App component if necessary */
 .App {
-  text-align: center;
+  /* Add styling specific to your App component */
 }
 
-/* Header styling - customize as needed */
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-}
-
-/* Hero section styling */
-.hero-section {
-  background-color: #f5f5f5;
-  padding: 2rem;
-}
-
-/* Featured section styling */
-.featured-section {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.accommodation-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin: 1rem;
-  max-width: 300px;
-}
-
-/* Explore section styling */
-.explore-section {
-  padding: 2rem;
-}
+/* Add more styles as your application grows */
