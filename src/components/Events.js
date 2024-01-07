@@ -2,7 +2,7 @@
 import React from 'react';
 import './Events.css';
 
-const Events = () => {
+function Events() {
   return (
     <div className="events-container">
       <h2>Upcoming Events</h2>
