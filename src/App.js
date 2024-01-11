@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Facilities from './components/Facilities';
 import Events from './components/Events';
+import AuthPage from './components/AuthPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/ph-mock-website-demo/" element={<Home />} />
             <Route path="/ph-mock-website-demo/facilities" element={<Facilities />} />
             <Route path="/ph-mock-website-demo/events" element={<Events />} />
+            <Route path="/ph-mock-website-demo/auth" element={<AuthPage />} />
           </Routes>
         </main>
       </div>
