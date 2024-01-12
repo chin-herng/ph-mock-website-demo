@@ -2,8 +2,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import { useAuth } from './AuthContext';
 
 function Header() {
+  const { isAuthenticated, logout } = useAuth(); // Import isAuthenticated and logout from the authentication context
+
   return (
     <header>
       <div className="logo">Your Logo</div>
@@ -22,7 +25,13 @@ function Header() {
         <button type="button">Search</button>
       </div>
       <div className="auth-buttons">
-        <Link to="/ph-mock-website-demo/auth">Register / Login</Link>
+        {isAuthenticated ? (
+          // Display Logout button when user is authenticated
+          <button onClick={logout} >Logout</button>
+        ) : (
+          // Display Register / Login button when user is not authenticated
+          <Link to="/ph-mock-website-demo/auth">Register / Login</Link>
+        )}
       </div>
     </header>
   );

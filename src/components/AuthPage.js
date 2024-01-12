@@ -1,9 +1,12 @@
 // AuthPage.js
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './AuthPage.css';
+import { useAuth } from './AuthContext';
 
 function AuthPage() {
+  const { login } = useAuth();
+  const navigate = useNavigate();
   const [isRegisterMode, setRegisterMode] = useState(true);
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
@@ -20,7 +23,6 @@ function AuthPage() {
     setConfirmPassword('');
     setErrorMessage('');
     setSuccessMessage('');
-  
     setRegisterMode((prevMode) => !prevMode);
   };
 
@@ -82,6 +84,12 @@ function AuthPage() {
             ? 'Your registration is successful.'
             : 'Login successful. Welcome!'
         );
+
+        // Update the authentication status using the login function from the context
+        login();
+
+        // Redirect to home page upon successful registration or login
+        navigate('/ph-mock-website-demo');
       } else {
         // Parse the JSON string and extract the message property
         const errorDetails = JSON.parse(responseBody);
