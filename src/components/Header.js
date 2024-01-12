@@ -22,7 +22,7 @@ function Header() {
         <button type="button">Search</button>
       </div>
       <div className="auth-buttons">
-        <Link to="/auth">Register / Login</Link>
+        <Link to="/ph-mock-website-demo/auth">Register / Login</Link>
       </div>
     </header>
   );
