@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ph-mock-website-demo/static/css/main.d982cf0e.css",
-    "main.js": "/ph-mock-website-demo/static/js/main.a2d6cdf5.js",
+    "main.css": "/ph-mock-website-demo/static/css/main.215d7ba1.css",
+    "main.js": "/ph-mock-website-demo/static/js/main.a8b8ccbd.js",
     "static/js/787.a6097978.chunk.js": "/ph-mock-website-demo/static/js/787.a6097978.chunk.js",
     "index.html": "/ph-mock-website-demo/index.html",
-    "main.d982cf0e.css.map": "/ph-mock-website-demo/static/css/main.d982cf0e.css.map",
-    "main.a2d6cdf5.js.map": "/ph-mock-website-demo/static/js/main.a2d6cdf5.js.map",
+    "main.215d7ba1.css.map": "/ph-mock-website-demo/static/css/main.215d7ba1.css.map",
+    "main.a8b8ccbd.js.map": "/ph-mock-website-demo/static/js/main.a8b8ccbd.js.map",
     "787.a6097978.chunk.js.map": "/ph-mock-website-demo/static/js/787.a6097978.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d982cf0e.css",
-    "static/js/main.a2d6cdf5.js"
+    "static/css/main.215d7ba1.css",
+    "static/js/main.a8b8ccbd.js"
   ]
 }
