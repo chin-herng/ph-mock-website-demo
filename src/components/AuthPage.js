@@ -35,6 +35,8 @@ function AuthPage() {
       return "This email already exists.";
     } else if (originalMessage.includes("this username already exists")) {
       return "This username already exists.";
+    } else if (originalMessage.includes("username or password is incorrect")) {
+      return "Username or password is incorrect.";
     }
     
   
