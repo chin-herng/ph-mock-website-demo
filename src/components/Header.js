@@ -1,9 +1,12 @@
 // Header.js
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from 'react-router-dom'
-import './Header.css'; // Import a separate CSS file for styling if needed
+import { Link } from 'react-router-dom';
+import './Header.css';
+import { useAuth } from './AuthContext';
 
 function Header() {
+  const { isAuthenticated, logout } = useAuth(); // Import isAuthenticated and logout from the authentication context
+
   return (
     <header>
       <div className="logo">Your Logo</div>
@@ -18,9 +21,17 @@ function Header() {
         </ul>
       </nav>
       <div className="search-bar">
-        {/* Add search functionality with input and search button */}
         <input type="text" placeholder="Search..." />
         <button type="button">Search</button>
+      </div>
+      <div className="auth-buttons">
+        {isAuthenticated ? (
+          // Display Logout button when user is authenticated
+          <button onClick={logout} >Logout</button>
+        ) : (
+          // Display Register / Login button when user is not authenticated
+          <Link to="/ph-mock-website-demo/auth">Register / Login</Link>
+        )}
       </div>
     </header>
   );
